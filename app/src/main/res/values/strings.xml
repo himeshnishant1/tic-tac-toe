@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="positive_popup_text_default">You have Successfully Completed the challenge. keep it up to earn more points.</string>
+    <string name="positive_popup_title_default">Tic Tac Toe</string>
+    <string name="enter_player_s_names">Enter Player\'s names</string>
+    <string name="positive_btn_text">Lets Begin !!</string>
+    <string name="ClosePositiveImgContentDesc">TODO</string>
+    <string name="PositiveReacting">TODO</string>
+    <string name="btn_click_me">Click Me</string>
+    <string name="ib1">ib1</string>
+    <string name="ib2">ib2</string>
+    <string name="ib3">ib3</string>
+    <string name="ib4">ib4</string>
+    <string name="ib5">ib5</string>
+    <string name="ib6">ib6</string>
+    <string name="ib7">ib7</string>
+    <string name="ib8">ib8</string>
+    <string name="ib9">ib9</string>
+    <string name="player_1">Player 1</string>
+    <string name="enter_name">Enter Name...</string>
+    <string name="player_2">Player 2</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="play_again">Play Again</string>
+</resources>

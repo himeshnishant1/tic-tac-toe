@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/colorGreen">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen5dp"
+            android:padding="@dimen/dimen5dp"
+            android:background="@color/colorRedDark"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib1"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib1"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/ib2"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib2"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/ib3"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib3"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib4"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib4"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/ib5"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib5"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/ib6"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib6"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib7"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib7"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/ib8"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib8"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/ib9"
+                    style="@style/Button_style"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#ffffff"
+                    android:contentDescription="@string/ib9"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/font22sp"
+                android:layout_marginRight="@dimen/dimen10dp"
+                android:layout_marginLeft="@dimen/dimen10dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
